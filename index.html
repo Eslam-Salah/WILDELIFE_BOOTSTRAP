@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Wildlife</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-offset="62" data-bs-target=".navbar">
+    <header id="home">
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-md bg-light fixed-top shadow" id="nav">
+        <div class="container">
+          <a href="#" class="navbar-brand txt-color fs-4 fw-bold text-uppercase me-md-0">Creature</a>
+          <button class="navbar-toggler">
+            <i class="fas fa-bars fs-4" data-bs-toggle="collapse" data-bs-target="#navLinks"></i>
+          </button>
+          <div class="navbar-collapse collapse" id="navLinks">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link txt-color active fw-bold px-0 me-md-3">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link txt-color fw-bold px-0 me-md-3">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#features" class="nav-link txt-color fw-bold px-0 me-md-3">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle txt-color fw-bold px-0 me-md-3"
+                  data-bs-toggle="dropdown"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a href="#pricing" class="dropdown-item">Pricing</a></li>
+                  <li><a href="#team" class="dropdown-item">Team</a></li>
+                  <li><a href="#portfolio" class="dropdown-item">Portfolio</a></li>
+                  <li><a href="#blog" class="dropdown-item">Latest Posts</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link txt-color fw-bold px-0 me-md-3">Contact</a>
+              </li>
+            </ul>
+            <i
+              class="fas fa-user bg-color rounded fs-6 mt-2 mt-md-0"
+              data-bs-toggle="modal"
+              data-bs-target="#signin"
+            ></i>
+          </div>
+        </div>
+      </nav>
+      <!-- Start Carousel -->
+      <div class="carousel slide carousel-fade h-100" id="move" data-bs-ride="carousel">
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <div class="carousel-caption">
+              <h2 class="display-1">Protect Wildlife</h2>
+              <span class="line d-block mx-auto mb-4 mt-2"></span>
+              <p class="fs-5 fst-italic">We Move The World To Protect Animals</p>
+              <button class="btn bg-color mt-2 rounded-pill">View More</button>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <div class="carousel-caption">
+              <h2 class="display-1">Animals Foundation</h2>
+              <span class="line d-block mx-auto mb-4 mt-2"></span>
+              <p class="fs-5 fst-italic">We Move The World To Protect Animals</p>
+              <button class="btn bg-color mt-2 rounded-pill">View More</button>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <div class="carousel-caption">
+              <h2 class="display-1">Discover Creature</h2>
+              <span class="line d-block mx-auto mb-4 mt-2"></span>
+              <p class="fs-5 fst-italic">We Move The World To Protect Animals</p>
+              <button class="btn bg-color mt-2 rounded-pill">View More</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            class="active rounded-circle"
+            data-bs-slide-to="0"
+            data-bs-target="#move"
+          ></button>
+          <button type="button" class="rounded-circle" data-bs-slide-to="1" data-bs-target="#move"></button>
+          <button type="button" class="rounded-circle" data-bs-slide-to="2" data-bs-target="#move"></button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Start About Section -->
+    <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mb-3">
+            <img src="images/about-1.jpg" alt="about-1" class="d-block w-100 h-100 rounded" />
+          </div>
+          <div class="col-lg-7">
+            <h2 class="fw-bold">About Creature</h2>
+            <p class="text-uppercase text-muted mb-4 ls-1">
+              helping animals & working on environmental issues.
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-3">
+                <i
+                  class="
+                    fas
+                    fa-home
+                    bg-color
+                    text-light
+                    rounded-circle
+                    flex-shrink-0
+                    text-center
+                    me-3
+                    fa-lg
+                    shadow
+                  "
+                ></i>
+                <div>
+                  <h4>Sanctus Takimata</h4>
+                  <p class="text-secondary">
+                    Lo sea takimata sanctus est Lorem ipolor sit amet, no sea takimata sanctus est Loremsum
+                    dolor sit amet.
+                  </p>
+                </div>
+              </li>
+              <li class="d-flex mb-3">
+                <i
+                  class="
+                    fas
+                    fa-laptop
+                    bg-color
+                    text-light
+                    rounded-circle
+                    flex-shrink-0
+                    text-center
+                    me-3
+                    fa-lg
+                    shadow
+                  "
+                ></i>
+                <div>
+                  <h4>Takimata Sanctus</h4>
+                  <p class="text-secondary">
+                    Lo sea takimata sanctus est Lorem ipsum dolorsita.Lorem ipsum dolor sit amet,sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, At vero eos et
+                    accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, no sea takimata
+                    sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-------------->
+        <div class="row pt-4">
+          <div class="col-lg-7 order-2 order-lg-1">
+            <h2 class="fw-bold">Saving Animals</h2>
+            <p class="text-uppercase text-muted mb-4 ls-1">
+              helping animals & working on environmental issues.
+            </p>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-3">
+                <i
+                  class="
+                    fas
+                    fa-home
+                    bg-color
+                    text-light
+                    rounded-circle
+                    flex-shrink-0
+                    text-center
+                    me-3
+                    fa-lg
+                    shadow
+                  "
+                ></i>
+                <div>
+                  <h4>Sanctus Takimata</h4>
+                  <p class="text-secondary">
+                    Lo sea takimata sanctus est Lorem ipolor sit amet, no sea takimata sanctus est Loremsum
+                    dolor sit amet.
+                  </p>
+                </div>
+              </li>
+              <li class="d-flex mb-3">
+                <i
+                  class="
+                    fas
+                    fa-laptop
+                    bg-color
+                    text-light
+                    rounded-circle
+                    flex-shrink-0
+                    text-center
+                    me-3
+                    fa-lg
+                    shadow
+                  "
+                ></i>
+                <div>
+                  <h4>Takimata Sanctus</h4>
+                  <p class="text-secondary">
+                    Lo sea takimata sanctus est Lorem ipsum dolorsita.Lorem ipsum dolor sit amet,sed diam
+                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, At vero eos et
+                    accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, no sea takimata
+                    sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 mb-3">
+            <img src="images/about-2.jpg" alt="about-2" class="d-block w-100 h-100 rounded" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start State Section -->
+    <section class="state py-5" id="state">
+      <div class="container">
+        <div class="text-center text-light">
+          <h2 class="display-6 mb-3">We Move The World To Protect Animals</h2>
+          <p>
+            Vestibulum volutpat non eros ut vulputate. Nunc id risus accumsan Donec mi nulla, auctor nec sem
+            a, ornare auctor mi. Sed mi tortor, commodo a felis in, fringilla tincidunt nulla.
+          </p>
+          <div class="row mt-5">
+            <div class="col-md-4 mb-4 mb-md-0">
+              <i class="fas fa-smile fs-1 mb-3"></i>
+              <h4 class="fs-2">297</h4>
+              <p class="mb-0 text-uppercase">volunteers</p>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <i class="fas fa-users fs-1 mb-3"></i>
+              <h4 class="fs-2">194</h4>
+              <p class="mb-0 text-uppercase">projects completed</p>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <i class="fas fa-database fs-1 mb-3"></i>
+              <h4 class="fs-2">2,298</h4>
+              <p class="mb-0 text-uppercase">donars</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Features Section -->
+    <section class="features py-5" id="features">
+      <div class="container">
+        <div class="title-sections mb-5 text-center">
+          <h2 class="text-uppercase ls-1">premium features</h2>
+          <p class="text-uppercase text-muted ls-1">helping animals & working on environmental issues.</p>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <i class="fas fa-map-marker-alt fa-lg rounded-circle txt-color mb-3"></i>
+            <h3 class="txt-color">Wind Energy</h3>
+            <p class="text-secondary">
+              Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <i class="fas fa-check-circle fa-lg rounded-circle txt-color mb-3"></i>
+            <h3 class="txt-color">Pollution</h3>
+            <p class="text-secondary">
+              Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <i class="fas fa-paw fa-lg rounded-circle txt-color mb-3"></i>
+            <h3 class="txt-color">Saving Animals</h3>
+            <p class="text-secondary">
+              Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <i class="fas fa-tint fa-lg rounded-circle txt-color mb-3"></i>
+            <h3 class="txt-color">Water</h3>
+            <p class="text-secondary">
+              Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <i class="fas fa-handshake fa-lg rounded-circle txt-color mb-3"></i>
+            <h3 class="txt-color">Protection</h3>
+            <p class="text-secondary">
+              Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <i class="fas fa-chart-bar fa-lg rounded-circle txt-color mb-3"></i>
+            <h3 class="txt-color">Nature</h3>
+            <p class="text-secondary">
+              Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur aut
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Over Div -->
+    <div class="over py-5 text-center">
+      <div class="container">
+        <h3>Over 70% of donations made to us directly impact animals in the wild</h3>
+        <div class="btn-group flex-wrap gap-3 mt-4">
+          <a href="#contact" class="btn btn-dark rounded ls-1">Contact Us</a>
+          <a href="#" class="btn btn-dark rounded ls-1" data-bs-toggle="modal" data-bs-target="#register">
+            make a contribution
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Pricing Section -->
+    <section class="pricing py-5" id="pricing">
+      <div class="container">
+        <div class="title-sections text-center">
+          <h2 class="text-uppercase ls-1">recent projects</h2>
+          <p class="text-uppercase text-muted ls-1">helping animals & working on environmental issues.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-lg-0">
+            <div class="box text-center pt-4">
+              <i class="fab fa-gg fs-2 mb-3 txt-color"></i>
+              <h4 class="txt-color">Protecting Forests</h4>
+              <p class="text-muted">
+                Funds Needed - <sup class="txt-color fs-6">$</sup> <span class="txt-color fs-5">800</span>
+              </p>
+              <ul class="list-unstyled mt-4">
+                <li class="py-2 border-bottom">50 Gb Space</li>
+                <li class="py-2 border-bottom">5 Domain Names</li>
+                <li class="py-2 border-bottom">20 Email Address</li>
+                <li class="py-2">Live Support</li>
+              </ul>
+              <a
+                href="#"
+                class="btn bg-color rounded-pill mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#signin"
+              >
+                Donate Now
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-lg-0">
+            <div class="box text-center pt-4">
+              <i class="fas fa-money-bill-alt fs-2 mb-3 txt-color"></i>
+              <h4 class="txt-color">Rescue Rehabilitation</h4>
+              <p class="text-muted">
+                Funds Needed - <sup class="txt-color fs-6">$</sup> <span class="txt-color fs-5">1200</span>
+              </p>
+              <ul class="list-unstyled mt-4">
+                <li class="py-2 border-bottom">50 Gb Space</li>
+                <li class="py-2 border-bottom">5 Domain Names</li>
+                <li class="py-2 border-bottom">20 Email Address</li>
+                <li class="py-2">Live Support</li>
+              </ul>
+              <a
+                href="#"
+                class="btn bg-color rounded-pill mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#signin"
+              >
+                Donate Now
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-lg-0">
+            <div class="box text-center pt-4">
+              <i class="fas fa-money-check-alt fs-2 mb-3 txt-color"></i>
+              <h4 class="txt-color">Environmental Air</h4>
+              <p class="text-muted">
+                Funds Needed - <sup class="txt-color fs-6">$</sup> <span class="txt-color fs-5">3000</span>
+              </p>
+              <ul class="list-unstyled mt-4">
+                <li class="py-2 border-bottom">50 Gb Space</li>
+                <li class="py-2 border-bottom">5 Domain Names</li>
+                <li class="py-2 border-bottom">20 Email Address</li>
+                <li class="py-2">Live Support</li>
+              </ul>
+              <a
+                href="#"
+                class="btn bg-color rounded-pill mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#signin"
+              >
+                Donate Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Team Section -->
+    <section class="team py-5" id="team">
+      <div class="container">
+        <div class="title-sections mb-5 text-center">
+          <h2 class="text-uppercase ls-1">our team</h2>
+          <p class="text-uppercase text-muted ls-1">helping animals & working on environmental issues.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box position-relative text-center">
+              <img src="images/team-1.jpg" alt="" class="img-fluid p-1 rounded" />
+              <div class="content position-absolute translate-middle">
+                <h3 class="txt-color fw-bold">Williamson</h3>
+                <p class="text-light">Role In Detail</p>
+                <div class="btn-group gap-3">
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box position-relative text-center">
+              <img src="images/team-2.jpg" alt="" class="img-fluid p-1 rounded" />
+              <div class="content position-absolute translate-middle">
+                <h3 class="txt-color fw-bold">Williamson</h3>
+                <p class="text-light">Role In Detail</p>
+                <div class="btn-group gap-3">
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box position-relative text-center">
+              <img src="images/team-3.jpg" alt="" class="img-fluid p-1 rounded" />
+              <div class="content position-absolute translate-middle">
+                <h3 class="txt-color fw-bold">Williamson</h3>
+                <p class="text-light">Role In Detail</p>
+                <div class="btn-group gap-3">
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="box position-relative text-center">
+              <img src="images/team-4.jpg" alt="" class="img-fluid p-1 rounded" />
+              <div class="content position-absolute translate-middle">
+                <h3 class="txt-color fw-bold">Williamson</h3>
+                <p class="text-light">Role In Detail</p>
+                <div class="btn-group gap-3">
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="box position-relative text-center">
+              <img src="images/team-5.jpg" alt="" class="img-fluid p-1 rounded" />
+              <div class="content position-absolute translate-middle">
+                <h3 class="txt-color fw-bold">Williamson</h3>
+                <p class="text-light">Role In Detail</p>
+                <div class="btn-group gap-3">
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="box position-relative text-center">
+              <img src="images/team-6.jpg" alt="" class="img-fluid p-1 rounded" />
+              <div class="content position-absolute translate-middle">
+                <h3 class="txt-color fw-bold">Williamson</h3>
+                <p class="text-light">Role In Detail</p>
+                <div class="btn-group gap-3">
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-facebook-f fa-lg"></i></a>
+                  <a href="#" class="bg-light rounded-circle"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Portfolio Section -->
+    <section class="portfolio py-5" id="portfolio">
+      <div class="title-sections mb-5 text-center">
+        <h2 class="text-uppercase ls-1">Portfolio</h2>
+        <p class="text-uppercase text-muted ls-1">helping animals & working on environmental issues.</p>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-1.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-2.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-3.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-4.jpg" alt="" class="img-fluid p-1" />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-4">
+          <img src="images/portfolio-5.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="images/portfolio-1.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img src="images/portfolio-2.jpg" alt="" class="img-fluid p-1" />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-3.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-2.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-5.jpg" alt="" class="img-fluid p-1" />
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/portfolio-3.jpg" alt="" class="img-fluid p-1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Testimonials Section  -->
+    <section class="testimonials py-5" id="testimonials">
+      <div class="container">
+        <div class="title-sections mb-5 text-center">
+          <h2 class="text-uppercase ls-1">Portfolio</h2>
+          <p class="text-uppercase text-muted ls-1">helping animals & working on environmental issues.</p>
+        </div>
+        <!-- Start Carousel -->
+        <div class="carousel slide" id="test" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="box shadow-sm p-2 text-center rounded p-3">
+                    <p class="text-secondary">
+                      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="desc">
+                      <i class="fas fa-user fs-3 txt-color bg-light p-3 rounded-circle shadow-sm mb-3"></i>
+                      <h3>Takimata</h3>
+                      <p class="mb-0">Member</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="box shadow-sm p-2 text-center rounded p-3">
+                    <p class="text-secondary">
+                      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="desc">
+                      <i class="fas fa-user fs-3 txt-color bg-light p-3 rounded-circle shadow-sm mb-3"></i>
+                      <h3>Takimata</h3>
+                      <p class="mb-0">Member</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mb-4">
+                  <div class="box shadow-sm p-2 text-center rounded p-3">
+                    <p class="text-secondary">
+                      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="desc">
+                      <i class="fas fa-user fs-3 txt-color bg-light p-3 rounded-circle shadow-sm mb-3"></i>
+                      <h3>Takimata</h3>
+                      <p class="mb-0">Member</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="box shadow-sm p-2 text-center rounded p-3">
+                    <p class="text-secondary">
+                      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="desc">
+                      <i class="fas fa-user fs-3 txt-color bg-light p-3 rounded-circle shadow-sm mb-3"></i>
+                      <h3>Takimata</h3>
+                      <p class="mb-0">Member</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="box shadow-sm p-2 text-center rounded p-3">
+                    <p class="text-secondary">
+                      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="desc">
+                      <i class="fas fa-user fs-3 txt-color bg-light p-3 rounded-circle shadow-sm mb-3"></i>
+                      <h3>Takimata</h3>
+                      <p class="mb-0">Member</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mb-4">
+                  <div class="box shadow-sm p-2 text-center rounded p-3">
+                    <p class="text-secondary">
+                      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                    </p>
+                    <div class="desc">
+                      <i class="fas fa-user fs-3 txt-color bg-light p-3 rounded-circle shadow-sm mb-3"></i>
+                      <h3>Takimata</h3>
+                      <p class="mb-0">Member</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel indicators -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              class="active rounded-circle"
+              data-bs-slide-to="0"
+              data-bs-target="#test"
+            ></button>
+            <button type="button" class="rounded-circle" data-bs-slide-to="1" data-bs-target="#test"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Blog Section  -->
+    <section class="blog py-5" id="blog">
+      <div class="container">
+        <div class="title-sections mb-5 text-center">
+          <h2 class="text-uppercase ls-1">recent blog</h2>
+          <p class="text-uppercase text-muted ls-1">helping animals & working on environmental issues.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="box rounded shadow-sm">
+              <img src="images/portfolio-1.jpg" alt="" class="img-fluid" />
+              <div class="info p-3">
+                <h4 class="border-bottom pb-2">Cras Ultricies Ligula Sed</h4>
+                <p class="text-secondary">
+                  At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit ametLorem
+                  ipsum dolor sit amet,sed diam nonumy.
+                </p>
+                <p><i class="fas fa-calendar-alt me-2"></i>26.12.2021</p>
+                <a href="#" class="btn bg-color" data-bs-toggle="modal" data-bs-target="#toBlog">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="box rounded shadow-sm">
+              <img src="images/portfolio-2.jpg" alt="" class="img-fluid" />
+              <div class="info p-3">
+                <h4 class="border-bottom pb-2">Magna Porta Auris.</h4>
+                <p class="text-secondary">
+                  At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit ametLorem
+                  ipsum dolor sit amet,sed diam nonumy.
+                </p>
+                <p><i class="fas fa-calendar-alt me-2"></i>26.12.2021</p>
+                <a href="#" class="btn bg-color" data-bs-toggle="modal" data-bs-target="#toBlog">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="box rounded shadow-sm">
+              <img src="images/portfolio-3.jpg" alt="" class="img-fluid" />
+              <div class="info p-3">
+                <h4 class="border-bottom pb-2">Cras Ultricies Ligula Sed</h4>
+                <p class="text-secondary">
+                  At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit ametLorem
+                  ipsum dolor sit amet,sed diam nonumy.
+                </p>
+                <p><i class="fas fa-calendar-alt me-2"></i>26.12.2021</p>
+                <a href="#" class="btn bg-color" data-bs-toggle="modal" data-bs-target="#toBlog">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Contact Section  -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="title-sections mb-5 text-center">
+          <h2 class="text-uppercase ls-1">contact us</h2>
+          <p class="text-uppercase text-muted ls-1">helping animals & working on environmental issues.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-5 text-center">
+            <div class="box mb-4 p-3 rounded">
+              <i class="fas fa-envelope-open mb-3 bg-color p-3 rounded-circle shadow-sm"></i>
+              <a href="#" class="d-block mb-2 text-dark text-decoration-none">info@example1.com</a>
+              <a href="#" class="d-block mb-2 text-dark text-decoration-none">info@example2.com</a>
+              <a href="#" class="d-block mb-2 text-dark text-decoration-none">info@example3.com</a>
+            </div>
+            <div class="box mb-4 p-3 rounded">
+              <i class="fas fa-phone mb-3 bg-color p-3 rounded-circle shadow-sm"></i>
+              <a href="#" class="d-block mb-2 text-dark text-decoration-none">+456 123 7890</a>
+              <a href="#" class="d-block mb-2 text-dark text-decoration-none">+456 123 7890</a>
+              <a href="#" class="d-block mb-2 text-dark text-decoration-none">+456 123 7890</a>
+            </div>
+            <div class="box mb-4 mb-lg-0 p-3 rounded">
+              <i class="fas fa-home mb-3 bg-color p-3 rounded-circle shadow-sm"></i>
+              <p class="mb-2">71 Pilgrim Avenue</p>
+              <p class="mb-2">44 Shirley Ave.</p>
+              <p class="mb-0">Goldfield Rd. Broome St, Newyork.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7">
+            <label for="yourtxt" class="form-label text-uppercase fw-bold">Your Name</label>
+            <input type="text" class="form-control" id="yourtxt" autocomplete="off" />
+            <label for="yourphone" class="form-label text-uppercase fw-bold mt-3">Mobile</label>
+            <input type="number" class="form-control" id="yourphone" />
+            <label for="yourmail" class="form-label text-uppercase fw-bold mt-3">Email</label>
+            <input type="email" class="form-control" id="yourmail" />
+            <label for="area" class="form-label text-uppercase fw-bold mt-3">Your message</label>
+            <textarea class="form-control" id="area" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn bg-color d-block w-100 mt-4">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Footer  -->
+    <footer class="text-center p-3 bg-dark text-light">
+      <p class="mb-0 fs-5">Created by <span class="txt-color fw-bold">Eslam Salah</span> at &copy; 12/2021</p>
+    </footer>
+
+    <!-- Modal for signin -->
+    <div class="modal fade" id="signin">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-color">
+            <h3 class="modal-title">Signin</h3>
+            <i class="fas fa-times fa-lg" data-bs-dismiss="modal"></i>
+          </div>
+          <div class="modal-body">
+            <label for="user" class="form-label text-uppercase fw-bold">Username</label>
+            <input type="text" class="form-control" id="user" autocomplete="off" />
+            <label for="pass" class="form-label text-uppercase fw-bold mt-3">Password</label>
+            <input type="password" class="form-control" id="pass" />
+            <button type="submit" class="btn bg-color d-block w-100 mt-4">Login</button>
+            <div class="row mt-3">
+              <div class="col-sm-6">
+                <input type="checkbox" class="form-check-input" id="checkSign" />
+                <label for="checkSign" class="form-check-label">Remember me?</label>
+              </div>
+              <div class="col-sm-6 forgot">
+                <a href="#">Forgot Password?</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <p>
+              Don't have an account?
+              <a href="#" data-bs-toggle="modal" data-bs-target="#register"> Register Now </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for register -->
+    <div class="modal fade" id="register">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-color">
+            <h3 class="modal-title">Register</h3>
+            <i class="fas fa-times fa-lg" data-bs-dismiss="modal"></i>
+          </div>
+          <div class="modal-body">
+            <label for="userReg" class="form-label text-uppercase fw-bold">Username</label>
+            <input type="text" class="form-control" id="userReg" autocomplete="off" />
+            <label for="mail" class="form-label text-uppercase fw-bold mt-3">Email</label>
+            <input type="email" class="form-control" id="mail" />
+            <label for="passReg" class="form-label text-uppercase fw-bold mt-3">Password</label>
+            <input type="password" class="form-control" id="passReg" />
+            <label for="passReg2" class="form-label text-uppercase fw-bold mt-3">Confirm Password</label>
+            <input type="password" class="form-control" id="passReg2" />
+            <div class="form-check my-3">
+              <input type="checkbox" class="form-check-input" id="checkReg" />
+              <label for="checkReg" class="form-check-label">Accept terms &amp; Conditions</label>
+            </div>
+            <button type="submit" class="btn bg-color d-block w-100 mt-4">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for blog -->
+    <div class="modal fade" id="toBlog">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-color">
+            <h4 class="modal-title">Cras Ultricies Ligula Sed</h4>
+            <i class="fas fa-times fa-lg" data-bs-dismiss="modal"></i>
+          </div>
+          <div class="modal-body">
+            <img src="images/portfolio-1.jpg" alt="" class="img-fluid" />
+            <p class="mb-0 mt-4 text-muted lh-lg">
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl
+              tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
